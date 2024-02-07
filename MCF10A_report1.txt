@@ -136,8 +136,7 @@ plot_grid(p1, p2, ncol = 2, align = "hv")
 
 ```
 
-On the left plot, we say that oligomycin, Imaging media without Insulin, Imaging media without Hydrocortisone, Imaging media with EGF, and IL6 treatments are well separated from the larger cluster of treatments. This suggests that the aforementions treatments have unqiue expression patterns.
-
+On the left plot, we see that oligomycin, Imaging media without Insulin, Imaging media without Hydrocortisone, Imaging media with EGF, and IL6 treatments are well separated from the larger cluster of treatments. This suggests that the aforementions treatments have unqiue expression patterns.
 On the right plot, we colored by replicate and it suggests that we may have a batch effect. 
 To correct for this batch effect, we can use the removeBatchEffect function from the limma package
 
